@@ -1,0 +1,41 @@
+/* .flex{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex:2 2;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 32px 32px 32px;
+    grid-template-rows: 32px 32px 32px;
+    grid-template-areas: 
+        "aside aside aside"
+        "main main main"
+        "header header header";
+    width: 100px;
+    height: 100px;
+}
+
+header{
+    grid-area: header;
+}
+
+aside{
+    grid-area: aside;
+}
+
+main{
+    grid-area: main;
+} */
+
+
+<div>
+    <div>text1</div>
+    <h2>text2</h2><p>text3</p>
+    <input value=“text4“>
+    <input value=“text5“>
+    <ol>text6</ol>
+<img src=“./img/text7.png“>
+    <div>text8</div><span>text9</span>
+</div>

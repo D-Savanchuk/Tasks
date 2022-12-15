@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 30px 20px 20px;
+    width: 100px;
+    height: 100px;
+}

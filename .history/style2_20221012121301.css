@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex:2 2;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 32px 32px 32px;
+    grid-template-rows: 32px 32px 32px;
+    grid-template-areas: 
+        "header aside aside"
+        "header main main"
+        "header main main";
+    width: 100px;
+    height: 100px;
+}
+
+header{
+    grid-area: header;
+}
+
+aside{
+    grid-area: aside;
+}
+
+main{
+    grid-area: main;
+}
